@@ -1,3 +1,124 @@
-/*
- * Estilos de tu proyecto
- */
+/* Estilos Gerais */
+
+body {
+	margin: 0px;
+	background-image: url(../assets/images/hero.gif);
+	background-size: 100%;
+	font-family: Montserrat;
+	background-position-y: -92px;
+	background-repeat: no-repeat;
+}
+
+a { 
+	text-decoration: none;
+	color: #000;
+}
+
+h1 {
+	margin: 0px;
+	color: #362082;
+	font-size: 2.1em;
+	width: 300px;
+}
+
+/* Navegação */
+#logo img {
+	width: 52px;
+}
+
+nav {
+	padding: 23px;
+	display: flex;
+	width: 1213px;
+	margin: auto;
+	align-items: center;
+	height: 41px;
+}
+
+ul#menu {
+	list-style: none;
+	display: flex;
+	margin-left: auto;
+	width: 302px;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 92px;
+}
+
+ul#menu li:last-child {
+	border: 1px solid #fff;
+	padding: 9px 16px;
+	margin-top: -8px;
+	border-radius: 5px;
+}
+
+ul#menu li a {
+	color: #fff;
+}
+
+/* Sign up */
+.sign-up {
+	display: flex;
+	align-self: flex-end;
+	flex-direction: column;
+	width: 32%;
+	margin-left: auto;
+	margin-top: 41px;
+	background-color: #fff;
+	padding: 55px 55px 26px;
+}
+
+.sign-up span {
+	color: #362082;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-top: 24px;
+	letter-spacing: -0.5px;
+}
+
+input#input-phone {
+	border: none;
+	border-bottom: 1px solid;
+	font-size: 0.94em;
+	font-family: Montserrat;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.btn-becomeADriver {
+	background-color: #ff00be;
+	border: none;
+	padding: 10px 21px;
+	color: #fff;
+	margin-top: 20px;
+	border-radius: 6px;
+	font-size: 1em;
+}
+
+.sign-up a {
+	color: #696969;
+	border-bottom: 1px solid;
+	margin-left: 23px;
+	font-size: 1.05em;
+}
+
+span.small {
+	font-size: 0.78em;
+	font-weight: normal;
+	margin-top: 29px;
+	line-height: 2em;
+}
+
+/* Descrição */
+section.description {
+	color: #fff;
+	margin: 137px auto;
+	background: linear-gradient(179deg, #691a83, #2b1e66);
+}
+
+.wrapper {
+	width: 1025px;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
