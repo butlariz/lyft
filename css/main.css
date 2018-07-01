@@ -1,5 +1,4 @@
 /* Estilos Gerais */
-
 body {
 	margin: 0px;
 	background-image: url(../assets/images/hero.gif);
@@ -19,6 +18,17 @@ h1 {
 	color: #362082;
 	font-size: 2.1em;
 	width: 300px;
+}
+
+h2 {
+    font-size: 1.6em;
+    line-height: 1.25em;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    letter-spacing: -1px;
 }
 
 /* Navegação */
@@ -66,6 +76,7 @@ ul#menu li a {
 	margin-top: 41px;
 	background-color: #fff;
 	padding: 55px 55px 26px;
+	position: relative;
 }
 
 .sign-up span {
@@ -112,13 +123,148 @@ span.small {
 /* Descrição */
 section.description {
 	color: #fff;
-	margin: 137px auto;
-	background: linear-gradient(179deg, #691a83, #2b1e66);
+	margin-top: -105px;
+	padding-top: 219px;
+	padding-bottom: 68px;
+	background: linear-gradient(transparent 0%, #74258e 19%, #2b1e66 100%);
 }
 
 .wrapper {
-	width: 1025px;
-	display: flex;
+    width: 1025px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text-description {
+	width: 43%;
+}
+
+.text-description span {
+	line-height: 1.6em;
+	font-size: 0.9em;
+	margin-bottom: 24px;
+	display: block;
+}
+
+img.img-phone {
+	width: 469px;
+	height: 487px;
+}
+
+/* Vídeos e textos */
+section.videos {
+	width: 1346px;
 	margin: auto;
-	justify-content: center;
+}
+
+.video-item {
+	display: flex;
+}
+
+.video-text {
+	width: 28%;
+	padding: 43px 20px 43px 43px;
+}
+
+small {
+	font-weight: bold;
+	font-size: 0.7em;
+}
+
+.video-text h2 {
+	margin: 0px 0px 18px;
+	font-size: 1.75em;
+}
+
+.video-text span {
+	font-size: 1.05em;
+	line-height: 1.3em;
+}
+
+.videos iframe {
+	width: 68%;
+	height: 504px;
+}
+
+/* Footer/Rodapé */
+
+footer {
+    background-color: #333448;
+    color: #fff;
+    padding: 43px 0px;
+}
+
+footer .menu-footer ul {
+    padding: 0px;
+    list-style: none;
+}
+
+footer .menu-footer ul li a {
+    color: #fff;
+    line-height: 3.2em;
+    letter-spacing: -0.05em;
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22%;
+    padding: 31px 0px;
+    margin-top: 17px;
+    padding-left: 7px;
+}
+
+.apps img {
+    width: 121px;
+    margin-top: 5px;
+}
+
+.bottom-footer {
+    width: 100%;
+}
+
+ul.sociais {
+    display: flex;
+    width: 210px;
+    justify-content: space-between;
+    margin: 37px auto 20px;
+    padding: 0px;
+}
+
+ul.sociais li {
+    list-style: none;
+}
+
+ul.sociais li:nth-of-type(odd) {
+    border: 2px solid #fff;
+    padding: 4px 5px 3px;
+    border-radius: 360px;
+}
+
+.icon-facebook:before {
+	content: "\ea90";
+	color: #fff;
+  }
+  
+.icon-instagram:before {
+    content: "\ea92";
+    color: #fff;
+    font-size: 1.8em;
+}
+
+.icon-twitter:before {
+	content: "\ea96";
+	color: #fff;
+}
+
+.credits {
+    border-top: 1px solid #fff;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 30px 0px 18px;
+    width: 80%;
+    margin: auto;
 }
