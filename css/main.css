@@ -97,7 +97,7 @@ input#input-phone {
 }
 
 .btn-becomeADriver {
-	background-color: #ff00be;
+	background-color: #FF00BF;
 	border: none;
 	padding: 10px 21px;
 	color: #fff;
@@ -122,11 +122,11 @@ span.small {
 
 /* Descrição */
 section.description {
-	color: #fff;
-	margin-top: -105px;
-	padding-top: 219px;
-	padding-bottom: 68px;
-	background: linear-gradient(transparent 0%, #74258e 19%, #2b1e66 100%);
+    color: #fff;
+    margin-top: -105px;
+    padding-top: 219px;
+    padding-bottom: 68px;
+    background: linear-gradient(transparent 0%, #76278F 19%, #2B1E66 100%);
 }
 
 .wrapper {
@@ -205,6 +205,10 @@ footer .menu-footer ul li a {
     color: #fff;
     line-height: 3.2em;
     letter-spacing: -0.05em;
+}
+
+footer .menu-footer ul li a:hover {
+    color: #FF00BF;
 }
 
 .apps {
